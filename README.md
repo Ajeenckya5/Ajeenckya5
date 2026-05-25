@@ -1,91 +1,185 @@
-<h1 align="center">Ajeenckya Mahadik</h1>
+<div align="center">
 
-<p align="center">
-  <strong>AI/ML Engineer &nbsp;·&nbsp; M.S. AI/ML, UW-Madison (May 2026)</strong><br/>
-  RAG systems &nbsp;·&nbsp; LLM agents &nbsp;·&nbsp; Bayesian ML &nbsp;·&nbsp; MLOps<br/>
-  Madison, WI &nbsp;·&nbsp;
-  <a href="mailto:ajeenckyam@gmail.com">ajeenckyam@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/ajeenckya-mahadik">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://ajeenckya5.github.io">Portfolio</a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ajeenckya+Mahadik+%F0%9F%91%8B;AI+%2F+ML+Engineer;LLM+%7C+RAG+%7C+Agentic+Systems;MS+Industrial+Engineering+%E2%80%94+UW-Madison" alt="Typing SVG" />
 
----
+<br/>
 
-## About
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajeenckya-mahadik)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ajeenckya5)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ajeenckya5.github.io)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajeenckyam@gmail.com)
 
-I build end-to-end AI/ML systems — from calibrated probabilistic models to production RAG pipelines and self-improving agents. My work sits at the intersection of model quality and operational impact: I care about eval metrics, retrieval isolation, uncertainty quantification, and the monitoring loops that keep systems honest after deployment.
-
-**Currently:** finishing M.S. in Industrial Engineering (AI/ML specialization) at UW-Madison, May 2026. Open to full-time ML/AI engineering roles.
+</div>
 
 ---
 
-## Selected Projects
+## 🧠 About Me
 
-### [Autonomous CLI Coding Agent](https://github.com/Ajeenckya5/CLI_AI_Agent)
-`python` `llm` `react-agent` `tool-calling` `rlaif` `dpo`
+I'm an **AI/ML Engineer** with an MS in Industrial Engineering from **UW-Madison**, specializing in building production-grade **LLM systems**, **agentic pipelines**, and **optimization frameworks** from scratch.
 
-Built a production-grade coding agent from scratch — **zero framework dependencies** (no LangChain, AutoGen, or CrewAI). Raw HTTP to the LLM API, 11 real tools, ReAct planning, cross-session memory, JSONL run tracing, and an RLAIF scoring loop that collects DPO preference pairs via Grok 4.
-
-**Results:** 100% task completion (5/5), 14/14 unit tests passing, **7.5× lower per-task latency** than LangChain equivalent (0.8 ms vs 5.7 ms), zero cold-start overhead.
-
----
-
-### [Self-Improving LLM Agent](https://github.com/Ajeenckya5/Self_Improving_LLM_Agent)
-`llm` `qlora` `llama` `chromadb` `knowledge-distillation` `agent-evaluation`
-
-Closed-loop self-improvement system: Grok 4 (teacher) annotates failure traces → QLoRA fine-tunes LLaMA-3.2-1B (student) → corrective strategies stored in ChromaDB → retrieved on the next similar task.
-
-**Results:** **90% task completion vs 71% baseline** on Tau Bench / WebArena. Student model achieves Grok 4 annotation quality at **60% memory reduction** via 4-bit NF4 quantization.
+- 🔬 Currently building: **self-improving LLM agents** with QLoRA fine-tuning and RLAIF feedback loops
+- 🏗️ I write raw API calls over frameworks — my agents don't use LangChain, AutoGen, or CrewAI
+- 📐 Background in **stochastic optimization** gives me a rigorous, mathematical take on ML
+- 🎯 Open to: **ML Engineer · AI Engineer · MLOps · Research Engineer** roles
 
 ---
 
-### [Multi-User Email RAG (LLM_RAG)](https://github.com/Ajeenckya5/LLM_RAG)
-`rag` `fastapi` `pgvector` `mistral` `jwt` `postgresql`
+## 🛠️ Tech Stack
 
-Local-first RAG system over 10,000+ emails. JWT auth with **SQL-enforced per-user retrieval isolation** (`WHERE user_id = :uid` runs before cosine ranking — User B cannot surface User A's chunks). E5-small-v2 embeddings, Mistral 7B GGUF via llama-cpp, pgvector cosine search.
+**LLMs & Agents**
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
-### [FER Vision Transformer Study](https://github.com/Ajeenckya5/Facial_Expressions_Recognation)
-`pytorch` `vision-transformer` `fer2013` `transfer-learning` `computer-vision`
+**Vector DBs & RAG**
 
-Comparative study of CNN baseline vs ViT transfer learning vs CNN-Transformer hybrid on FER2013 (7-class, ~36K images). Key finding: **ViT with pretraining significantly outperforms from-scratch CNN** — the data-hungry regime makes pretraining essential at this scale.
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral_7B-F7931E?style=flat-square&logoColor=white)
+![LLaMA](https://img.shields.io/badge/LLaMA_3-0467DF?style=flat-square&logoColor=white)
 
----
+**Computer Vision & Fine-Tuning**
 
-## Research — UW-Madison GRA
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ViT](https://img.shields.io/badge/Vision_Transformer-34A853?style=flat-square&logoColor=white)
+![QLoRA](https://img.shields.io/badge/QLoRA_Fine--Tuning-FF4154?style=flat-square&logoColor=white)
 
-**Bayesian Calibration for Probabilistic Forecasting**
+**Backend & Infra**
 
-Built a two-stage model: a deterministic SNN policy model (99 features, 3-way output) followed by a Bayesian output head with Monte Carlo sampling for uncertainty quantification.
-
-**Brier score: 0.176 — 26.7% improvement over the climatological baseline.** Evaluated with ECE, log-loss, reliability diagrams, and McNemar's test for statistical comparison of model variants (with/without weather features).
-
----
-
-## Work Experience
-
-| Role | Company | Focus |
-|---|---|---|
-| Graduate Research Assistant | UW-Madison | Bayesian calibration, SNN/BNN, probabilistic forecasting |
-| Graduate Associate Engineer | Fiat India | ML-ready datasets, delay prediction, AWS-backed pipelines |
-| Analytics Engineer | Powertrac | Predictive maintenance, risk scoring, model monitoring |
-| Graduate Engineer | Tata Motors | Anomaly detection, process optimization (Kaizen Award) |
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
-## Stack
+## 🚀 Featured Projects
 
-**Languages:** Python · SQL · Bash  
-**ML/DL:** PyTorch · scikit-learn · XGBoost · HuggingFace · LoRA/QLoRA  
-**LLM/AI:** LangChain · LlamaIndex · Mistral · LLaMA · Grok · RAG pipelines  
-**Infra:** FastAPI · Docker · Kubernetes · AWS (EC2/S3/RDS/SageMaker) · PostgreSQL · pgvector · Redis · Celery  
-**MLOps:** MLflow · GitHub Actions · CI/CD · model monitoring  
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [Self-Improving LLM Agent](https://github.com/Ajeenckya5/Self_Improving_LLM_Agent)
+**Grok 4 teacher → QLoRA fine-tunes LLaMA-3.2-1B student**
+
+- ChromaDB strategy memory for cross-session learning
+- **90% task completion** on Tau Bench benchmark
+- Knowledge distillation via DPO on annotated failure traces
+
+`QLoRA` `DPO` `ChromaDB` `LLaMA-3` `Self-Improving`
+
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ [CodeCraft CLI Agent](https://github.com/Ajeenckya5/CLI_AI_Agent)
+**Production CLI coding agent — zero framework dependencies**
+
+- ReAct loop + 11 workspace tools, raw HTTPS to xAI/OpenAI
+- RLAIF scoring via Grok 4 · JSONL tracing · cross-session memory
+- **7.5× faster** than comparable LangChain baseline
+
+`ReAct` `RLAIF` `Tool-Calling` `xAI` `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📧 [Multi-User Email RAG](https://github.com/Ajeenckya5/LLM_RAG)
+**E5-small-v2 + Mistral 7B over 10K+ indexed emails**
+
+- JWT auth with SQL-enforced per-user isolation at pgvector layer
+- Embedding caching + batched retrieval to cut inference latency
+- Retrieval precision & answer faithfulness metrics
+
+`RAG` `pgvector` `Mistral-7B` `FastAPI` `JWT`
+
+</td>
+<td width="50%" valign="top">
+
+### 😊 [Facial Expression Recognition](https://github.com/Ajeenckya5/Facial_Expressions_Recognation)
+**CNN vs ViT transfer learning on FER2013 (7-class)**
+
+- Comparative study: CNN baseline vs ViT vs CNN-Transformer hybrid
+- `trpakov/vit-face-expression` outperforms from-scratch CNN
+- Full ablation study with confusion matrices
+
+`ViT` `CNN` `PyTorch` `Transfer-Learning` `FER2013`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📈 [Stochastic Routing Optimizer](https://github.com/Ajeenckya5/Adpative_Two-Stage_Stochastic_Routing)
+**Adaptive two-stage stochastic optimization for routing under uncertainty**
+
+- Two-stage recourse model with adaptive scenario generation
+- Applied to logistics/supply-chain under demand uncertainty
+
+`Stochastic-Programming` `Optimization` `Operations-Research`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔧 [Multimodal Optimization Framework](https://github.com/Ajeenckya5/Multimodal_Optimization_Framework)
+**Multi-objective optimization combining metaheuristic strategies**
+
+- Evolutionary + gradient-based hybrid approach
+- Benchmarked across standard test functions
+
+`Optimization` `Metaheuristics` `Python` `NumPy`
+
+</td>
+</tr>
+</table>
 
 ---
 
-<p align="center">
-  <a href="https://ajeenckya5.github.io">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/ajeenckya-mahadik">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:ajeenckyam@gmail.com">Email</a>
-</p>
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ajeenckya5&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajeenckya5&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Ajeenckya5&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🧩 LeetCode
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Ajeenckya5?theme=dark&font=Fira%20Code&ext=activity)](https://leetcode.com/u/Ajeenckya5)
+
+</div>
+
+---
+
+## 🎓 Education & Background
+
+| | |
+|---|---|
+| 🎓 **MS Industrial Engineering** | University of Wisconsin–Madison |
+| 🔬 **Focus** | Optimization · AI/ML · Operations Research |
+| 💡 **Thesis area** | Stochastic optimization under uncertainty |
+
+---
+
+<div align="center">
+
+*"Build it from scratch. Understand every layer. That's how you ship reliable AI."*
+
+![Profile Views](https://komarev.com/ghpvc/?username=Ajeenckya5&color=6E40C9&style=flat-square&label=Profile+Views)
+
+</div>
