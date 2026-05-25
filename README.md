@@ -156,16 +156,6 @@ I'm an **AI/ML Engineer** with an MS in Industrial Engineering from **UW-Madison
 
 ---
 
-## 🧩 LeetCode
-
-<div align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Ajeenckya5?theme=dark&font=Fira%20Code&ext=activity)](https://leetcode.com/u/Ajeenckya5)
-
-</div>
-
----
-
 ## 🎓 Education & Background
 
 | | |
