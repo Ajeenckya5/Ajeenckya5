@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ajeenckya+Mahadik+%F0%9F%91%8B;AI+%2F+ML+Engineer;LLM+%7C+RAG+%7C+Agentic+Systems;MS+Industrial+Engineering+%E2%80%94+UW-Madison" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ajeenckya+Mahadik+%F0%9F%91%8B;AI+%2F+ML+Engineer;LLM+%7C+RAG+%7C+Agentic+Systems;Building+from+Scratch+%E2%80%94+No+Frameworks" alt="Typing SVG" />
 
 <br/>
 
@@ -15,11 +15,11 @@
 
 ## 🧠 About Me
 
-I'm an **AI/ML Engineer** with an MS in Industrial Engineering from **UW-Madison**, specializing in building production-grade **LLM systems**, **agentic pipelines**, and **optimization frameworks** from scratch.
+I'm an **AI/ML Engineer** with an MS from **UW-Madison**, specializing in building production-grade **LLM systems**, **agentic pipelines**, and **RAG architectures** from scratch.
 
 - 🔬 Currently building: **self-improving LLM agents** with QLoRA fine-tuning and RLAIF feedback loops
 - 🏗️ I write raw API calls over frameworks — my agents don't use LangChain, AutoGen, or CrewAI
-- 📐 Background in **stochastic optimization** gives me a rigorous, mathematical take on ML
+- 🤖 Deep focus on **fine-tuning**, **knowledge distillation**, and **multi-modal AI**
 - 🎯 Open to: **ML Engineer · AI Engineer · MLOps · Research Engineer** roles
 
 ---
@@ -111,58 +111,7 @@ I'm an **AI/ML Engineer** with an MS in Industrial Engineering from **UW-Madison
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 [Stochastic Routing Optimizer](https://github.com/Ajeenckya5/Adpative_Two-Stage_Stochastic_Routing)
-**Adaptive two-stage stochastic optimization for routing under uncertainty**
-
-- Two-stage recourse model with adaptive scenario generation
-- Applied to logistics/supply-chain under demand uncertainty
-
-`Stochastic-Programming` `Optimization` `Operations-Research`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 [Multimodal Optimization Framework](https://github.com/Ajeenckya5/Multimodal_Optimization_Framework)
-**Multi-objective optimization combining metaheuristic strategies**
-
-- Evolutionary + gradient-based hybrid approach
-- Benchmarked across standard test functions
-
-`Optimization` `Metaheuristics` `Python` `NumPy`
-
-</td>
-</tr>
 </table>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ajeenckya5&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajeenckya5&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Ajeenckya5&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🎓 Education & Background
-
-| | |
-|---|---|
-| 🎓 **MS Industrial Engineering** | University of Wisconsin–Madison |
-| 🔬 **Focus** | Optimization · AI/ML · Operations Research |
-| 💡 **Thesis area** | Stochastic optimization under uncertainty |
 
 ---
 
