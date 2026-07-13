@@ -64,13 +64,13 @@ I'm an **AI/ML Engineer** with an MS from **UW–Madison**, specializing in buil
 
 ### 🤖 [Self-Improving LLM Agent](https://github.com/Ajeenckya5/self-improving-llm-agent)
 
-**Agents that learn from failure — without retraining**
+**Full self-improving long-horizon agent — strategy memory + distillation**
 
-- Execution-trace analysis → corrective strategies → ChromaDB strategy memory
-- **90% task completion** on Tau Bench
-- DPO on Grok-4-annotated failure traces
+- Failure-trace analysis → corrective strategies → ChromaDB strategy memory · **90% on Tau Bench**
+- Grok-4 teacher labels → QLoRA fine-tunes LLaMA-3.2-1B student
+- **95% inference cost reduction** vs teacher at matched quality
 
-`QLoRA` `DPO` `ChromaDB` `LLaMA-3` `Self-Improving`
+`QLoRA` `DPO` `Knowledge-Distillation` `ChromaDB` `LLaMA-3`
 
 </td>
 <td width="50%" valign="top">
@@ -103,15 +103,15 @@ I'm an **AI/ML Engineer** with an MS from **UW–Madison**, specializing in buil
 </td>
 <td width="50%" valign="top">
 
-### 🧪 [LLM Agent Distillation](https://github.com/Ajeenckya5/llm-agent-distillation)
+### 🗺️ [Multimodal Optimization Framework](https://github.com/Ajeenckya5/multimodal-optimization-framework)
 
-**Grok-4 teacher → QLoRA-fine-tuned LLaMA-3.2-1B student**
+**MILP cost–time optimal routing across bus, train & flight networks**
 
-- Failure-trace annotation pipeline → JSONL training data
-- **95% inference cost reduction** vs teacher at matched quality
-- Full distillation stack: teacher labeling → QLoRA → eval
+- Exact Mixed-Integer Linear Program: flow conservation, stopover limits, mode feasibility
+- Tested on **2,040 routes** from a central U.S. hub
+- Cost–time Pareto trade-offs for multimodal journeys
 
-`QLoRA` `Knowledge-Distillation` `LLaMA-3` `bitsandbytes` `ChromaDB`
+`MILP` `Optimization` `Routing` `Operations-Research` `NumPy`
 
 </td>
 </tr>
@@ -149,7 +149,6 @@ I'm an **AI/ML Engineer** with an MS from **UW–Madison**, specializing in buil
 <summary><b>➕ More: Operations Research & Optimization</b></summary>
 <br/>
 
-- 🗺️ [**Multimodal Optimization Framework**](https://github.com/Ajeenckya5/multimodal-optimization-framework) — MILP-based cost–time optimal routing across bus, train & flight networks; tested on 2,040 routes
 - 🎲 [**Adaptive Two-Stage Stochastic Routing**](https://github.com/Ajeenckya5/adaptive-two-stage-stochastic-routing) — routing under travel-time uncertainty with recourse
 - 📈 [**Stock Signal Scanner**](https://github.com/Ajeenckya5/stock-signal-scanner) — technical-analysis BUY/SELL scanner for NSE equities with web UI + REST API
 - ⚡ [**Perf Sweep Decider**](https://github.com/Ajeenckya5/perf-sweep-decider-live) — interactive dashboard for LLM inference throughput sweeps
